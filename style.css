@@ -6,9 +6,22 @@
 
 :root {
   font-size: 62.5%;
+
+  /* cores */
+  --tt-heading: #0c3440;
+  --tt-label: #00453a;
+  --tt-input: #212529;
+  --ot-input: #02799d;
+  --bd-input: rgba(73, 80, 87, 0.3);
+  --tt-placeholder: rgba(73, 80, 87, 0.5);
+  --tt-button: white;
+  --bg-button: #02799d;
+  --bg-error: #f03e3e;
+  --tt-erro: white;
 }
 
 body {
+  font-family: "Roboto", sans-serif;
   background-color: #040924;
   font-size: 1.6rem;
 }
@@ -27,4 +40,9 @@ body {
 
   box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
   border-radius: 0.6rem;
+}
+
+.tittle {
+  font-size: 3.2rem;
+  line-height: 4rem;
 }
